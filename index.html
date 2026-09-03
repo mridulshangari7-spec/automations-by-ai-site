@@ -1,3 +1,8 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Automations by AI</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -205,8 +210,19 @@
   @media (max-width:560px){
     .hero-actions{flex-direction:column}
     .hero-actions .btn{width:100%}
+    :root{--header-x:16px;--stats-x:20px;--h1:32px;--logo:14px;--logo-mark:19px;--lede:14.5px;--badge:11.5px}
+    .headline-line{padding:.06em .05em .14em}
+    .stats{gap:14px}
+    .cta-band{padding:36px 24px;text-align:center;justify-content:center}
+    .cta-band > a{width:100%}
+    section{padding:48px 0}
+  }
+  @media (max-width:360px){
+    :root{--h1:28px}
   }
 </style>
+</head>
+<body style="background:#000;color:#fff">
 
 <div class="grain"></div>
 
@@ -674,3 +690,5 @@
   }
 })();
 </script>
+</body>
+</html>
